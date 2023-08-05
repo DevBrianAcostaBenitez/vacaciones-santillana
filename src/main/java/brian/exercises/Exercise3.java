@@ -6,15 +6,15 @@ public class Exercise3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Introduce un numero ");
         int number = sc.nextInt();
 
         boolean isArmstrong = isArmstrongNumber(number);
 
         if (isArmstrong) {
-            System.out.println(number + " is an Armstrong number.");
+            System.out.println(number + " Es un numero de armstrong.");
         } else {
-            System.out.println(number + " is not an Armstrong number.");
+            System.out.println(number + " No es un numero de armstrong.");
         }
 
         sc.close();

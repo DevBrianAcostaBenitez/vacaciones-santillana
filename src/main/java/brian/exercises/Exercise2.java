@@ -4,15 +4,15 @@ public class Exercise2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a year: ");
+        System.out.print("Escribe un año : ");
         int year = sc.nextInt();
 
         boolean isLeapYear = isLeapYear(year);
 
         if (isLeapYear) {
-            System.out.println(year + " is a leap year.");
+            System.out.println(year + " es bisiesto.");
         } else {
-            System.out.println(year + " is not a leap year.");
+            System.out.println(year + " no es bisiesto.");
         }
 
         sc.close();
