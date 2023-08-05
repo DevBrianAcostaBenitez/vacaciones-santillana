@@ -1,7 +1,6 @@
 package brian.exercises;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 import java.time.Month;
 import java.time.YearMonth;
